@@ -14,14 +14,12 @@ WORKDIR /ros2_ws
 COPY src /ros2_ws/src
 
 RUN . /opt/ros/$ROS_DISTRO/setup.sh && \
-    apt-get update && rosdep init && \
+    rosdep init && \
     rosdep update && \
     rosdep install --from-paths src --ignore-src -r -y && \
     colcon build
 
-SHELL ["/bin/bash", "-c"]
-RUN echo 'source /opt/ros/$ROS_DISTRO/setup.bash' >> ~/.bashrc
-RUN echo 'source /ros2_ws/install/setup.bash' >> ~/.bashrc
+RUN echo "source /opt/ros/$ROS_DISTRO/setup.bash" >> ~/.bashrc && \
+    echo "source /ros2_ws/install/setup.bash" >> ~/.bashrc
 
-CMD ["ros2", "launch", "turtlesim_path_planner", "path_planner_launch.py"]
-
+CMD ["bash", "-c", "source ~/.bashrc && ros2 launch turtlesim_path_planner path_planner_launch.py"]
