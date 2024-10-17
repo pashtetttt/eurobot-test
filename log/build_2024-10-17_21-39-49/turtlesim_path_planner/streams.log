@@ -1,0 +1,37 @@
+[1.612s] Invoking command in '/root/ros2_ws/turtlesim_path_planner': PYTHONPATH=/root/ros2_ws/build/turtlesim_path_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/turtlesim_path_planner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtlesim_path_planner build --build-base /root/ros2_ws/build/turtlesim_path_planner/build install --record /root/ros2_ws/build/turtlesim_path_planner/install.log --single-version-externally-managed install_data
+[2.139s] running egg_info
+[2.140s] creating ../build/turtlesim_path_planner/turtlesim_path_planner.egg-info
+[2.175s] writing ../build/turtlesim_path_planner/turtlesim_path_planner.egg-info/PKG-INFO
+[2.176s] writing dependency_links to ../build/turtlesim_path_planner/turtlesim_path_planner.egg-info/dependency_links.txt
+[2.177s] writing entry points to ../build/turtlesim_path_planner/turtlesim_path_planner.egg-info/entry_points.txt
+[2.177s] writing requirements to ../build/turtlesim_path_planner/turtlesim_path_planner.egg-info/requires.txt
+[2.178s] writing top-level names to ../build/turtlesim_path_planner/turtlesim_path_planner.egg-info/top_level.txt
+[2.178s] writing manifest file '../build/turtlesim_path_planner/turtlesim_path_planner.egg-info/SOURCES.txt'
+[2.249s] reading manifest file '../build/turtlesim_path_planner/turtlesim_path_planner.egg-info/SOURCES.txt'
+[2.250s] writing manifest file '../build/turtlesim_path_planner/turtlesim_path_planner.egg-info/SOURCES.txt'
+[2.251s] running build
+[2.252s] running build_py
+[2.252s] creating /root/ros2_ws/build/turtlesim_path_planner/build
+[2.253s] creating /root/ros2_ws/build/turtlesim_path_planner/build/lib
+[2.253s] creating /root/ros2_ws/build/turtlesim_path_planner/build/lib/turtlesim_path_planner
+[2.254s] copying turtlesim_path_planner/__init__.py -> /root/ros2_ws/build/turtlesim_path_planner/build/lib/turtlesim_path_planner
+[2.254s] copying turtlesim_path_planner/path_planner.py -> /root/ros2_ws/build/turtlesim_path_planner/build/lib/turtlesim_path_planner
+[2.254s] running install
+[2.264s] running install_lib
+[2.298s] creating /root/ros2_ws/install/turtlesim_path_planner/lib/python3.12/site-packages/turtlesim_path_planner
+[2.299s] copying /root/ros2_ws/build/turtlesim_path_planner/build/lib/turtlesim_path_planner/__init__.py -> /root/ros2_ws/install/turtlesim_path_planner/lib/python3.12/site-packages/turtlesim_path_planner
+[2.300s] copying /root/ros2_ws/build/turtlesim_path_planner/build/lib/turtlesim_path_planner/path_planner.py -> /root/ros2_ws/install/turtlesim_path_planner/lib/python3.12/site-packages/turtlesim_path_planner
+[2.300s] byte-compiling /root/ros2_ws/install/turtlesim_path_planner/lib/python3.12/site-packages/turtlesim_path_planner/__init__.py to __init__.cpython-312.pyc
+[2.301s] byte-compiling /root/ros2_ws/install/turtlesim_path_planner/lib/python3.12/site-packages/turtlesim_path_planner/path_planner.py to path_planner.cpython-312.pyc
+[2.303s] running install_data
+[2.304s] creating /root/ros2_ws/install/turtlesim_path_planner/share/ament_index
+[2.304s] creating /root/ros2_ws/install/turtlesim_path_planner/share/ament_index/resource_index
+[2.305s] creating /root/ros2_ws/install/turtlesim_path_planner/share/ament_index/resource_index/packages
+[2.305s] copying resource/turtlesim_path_planner -> /root/ros2_ws/install/turtlesim_path_planner/share/ament_index/resource_index/packages
+[2.305s] copying package.xml -> /root/ros2_ws/install/turtlesim_path_planner/share/turtlesim_path_planner
+[2.306s] running install_egg_info
+[2.342s] Copying ../build/turtlesim_path_planner/turtlesim_path_planner.egg-info to /root/ros2_ws/install/turtlesim_path_planner/lib/python3.12/site-packages/turtlesim_path_planner-0.0.0-py3.12.egg-info
+[2.345s] running install_scripts
+[2.596s] Installing path_planner script to /root/ros2_ws/install/turtlesim_path_planner/lib/turtlesim_path_planner
+[2.597s] writing list of installed files to '/root/ros2_ws/build/turtlesim_path_planner/install.log'
+[2.657s] Invoked command in '/root/ros2_ws/turtlesim_path_planner' returned '0': PYTHONPATH=/root/ros2_ws/build/turtlesim_path_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/turtlesim_path_planner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtlesim_path_planner build --build-base /root/ros2_ws/build/turtlesim_path_planner/build install --record /root/ros2_ws/build/turtlesim_path_planner/install.log --single-version-externally-managed install_data
